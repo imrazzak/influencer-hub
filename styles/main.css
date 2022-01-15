@@ -1,0 +1,61 @@
+/* Import Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins&display=swap');
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utilities CSS */
+
+body {
+    background-color: #f0f8ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Header CSS */
+
+header {
+    background-color: #fff;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: 800;
+    text-decoration: none;
+    color: #333;
+}
+
+nav .nav-lists {
+    display: flex;
+    align-items: center;
+}
+
+.nav-lists .nav-list {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-lists .nav-list.icon {
+    font-size: 1.6em;
+}
+
+/* Hero section */
+
+.hero-container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
