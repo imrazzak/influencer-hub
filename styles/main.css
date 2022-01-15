@@ -21,6 +21,12 @@ main {
     align-items: center;
 }
 
+.widget-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+}
+
 /* Header CSS */
 
 header {
@@ -111,4 +117,79 @@ nav .nav-lists {
     justify-content: space-around;
     padding: 15px 0;
     flex-wrap: wrap;
+}
+
+/* CSS for Product Collection */
+
+.product-collection {
+    width: 1024px;
+    margin-top: 100px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 40px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.meta-title {
+    margin-top: 16px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.meta-price {
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rating {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.rating span {
+    margin-left: 4px;
+}
+
+.rating-filled,
+.rating-half {
+    color: #FB8200;
+    font-size: 12px;
+}
+
+.rating-empty {
+    color: #b7bbbe;
+    font-size: 12px;
+}
+
+.meta-footer {
+    display: flex;
+    align-items: center;
+}
+
+.meta-footer ion-icon {
+    margin-right: 6px;
+}
+
+/* Lead CSS */
+
+.lead {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.lead-text {
+    width: 50%;
 }
