@@ -11,7 +11,7 @@
 /* Utilities CSS */
 
 body {
-    background-color: #f0f8ff;
+    background-color: #f9fcff;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -108,7 +108,7 @@ nav .nav-lists {
 .brand-carousel hr {
     border: 0;
     height: 1px;
-    background-color: #e0effcd0;
+    background-color: #e0effc85;
 }
 
 .brands {
@@ -196,6 +196,52 @@ nav .nav-lists {
     width: 55%;
 }
 
+/* Email Subscription */
+
+.email-subscription {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 100px;
+    font-family: 'Dosis';
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top, #0a0826, #ffffff00);
+}
+
+.email-subscription h2 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.email-subscription h2 span {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff8;
+}
+
+.email-subscription input {
+    width: 300px;
+    border: 1px solid #0a08267a;
+    outline: none;
+    padding: 15px 10px;
+    background-color: transparent;
+}
+
+.email-subscription input::placeholder {
+    color: #333;
+}
+
+.email-subscription button {
+    background-color: #0a0826;
+    color: #fff;
+    outline: none;
+    border: 0;
+    padding: 15px 40px;
+    font-family: 'Dosis';
+}
+
 /* Footer CSS */
 
 .footer {
@@ -205,4 +251,14 @@ nav .nav-lists {
     align-items: center;
     flex-direction: column;
     padding: 50px 0;
+    text-transform: uppercase;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social ion-icon {
+    background-color: #3338;
+    padding: 10px;
 }
