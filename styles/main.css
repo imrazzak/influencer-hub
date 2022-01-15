@@ -187,9 +187,10 @@ nav .nav-lists {
 .lead {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1100px;
+    margin-top: 150px;
 }
 
 .lead-text {
-    width: 50%;
+    width: 55%;
 }
