@@ -17,7 +17,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Header CSS */
@@ -90,4 +91,24 @@ nav .nav-lists {
 
 .hero-featured img {
     width: 90%;
+}
+
+/* Brand Design */
+
+.brand-carousel {
+    width: 1200px;
+}
+
+.brand-carousel hr {
+    border: 0;
+    height: 1px;
+    background-color: #e0effcd0;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+    flex-wrap: wrap;
 }
