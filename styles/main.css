@@ -187,10 +187,22 @@ nav .nav-lists {
 .lead {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1100px;
     margin-top: 150px;
 }
 
 .lead-text {
     width: 55%;
+}
+
+/* Footer CSS */
+
+.footer {
+    background-color: #0a0826;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
 }
